@@ -29,8 +29,7 @@ body {
     background-image: url("img/Image.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
-    height: 120vh;
+    background-position:center ;
 }
 
 .nav {
@@ -635,4 +634,8 @@ body {
 
     color: #696871;
 
+}
+
+@media(max-width:1160px){
+    .container{}
 }
